@@ -1,0 +1,37 @@
+header, aside, main, footer {
+    text-align: center; 
+    padding-top: 30px; 
+}
+header {
+    background-color: rgb(101, 113, 177); 
+    width: 900px; 
+    height: 150px; 
+    margin: 10px auto;
+    border: dashed  red5px ;
+    list-style-type: 
+}
+
+div {
+    height: 200px;
+    border: 2px solid black;
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+aside {
+    background-color: yellow; 
+    height: 300px; 
+    width: 300px; 
+    float: left;
+}
+main {
+    background-color: darkgrey; 
+    height: 300px; 
+}
+footer{
+    background-color: violet; 
+    width: 900px; 
+    height: 150px; 
+    margin: 10px auto;
+}
