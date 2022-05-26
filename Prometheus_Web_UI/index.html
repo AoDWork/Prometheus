@@ -4,13 +4,14 @@
     <head>
         <meta charset="UTF-8">
         <title>Prometheus webpage</title>
+        <link rel="stylesheet" href="./css/normalize.css">
         <link rel="stylesheet" href="./css/main.css">
     </head>
 
     <body>
         <!-- HEADER -->
-        <header>
-            <div>
+        <header class="header">
+            <div class="container">
                 <h1>Main Header</h1>
                 <h2>
                     <small>Small sub header</small>
@@ -20,15 +21,15 @@
         <!-- /HEADER -->
 
         <!-- NAV -->
-        <nav>
-            <div>
+        <nav class="page-navigation">
+            <div class="container">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contacts</a></li>
                 </ul>
                 <!--LOGIN FORM-->
-                <form action="#" method="GET">
+                <form class="login"  action="#">
                     <input type="text" name="login" placeholder="Login" required>
                     <input type="password" name="password" placeholder="Password" required>
                     <input type="submit" value="Sign In" id="submit">
@@ -40,95 +41,100 @@
 
         <!-- MAIN -->
         <main>
-            <div>
-                <h2>Image Collection <small>Visualize Quality</small></h2>
-                <div id='card'>
-                    <div id='??'>
-                        <div id='???'>
-                            <img src="./img/cover.jpg" alt="cover" width="300">
-                            <div>
+            <div class="container">
+
+                <h2 class="collection-title">Image Collection <small>Visualize Quality</small></h2>
+                <div class="collections">
+
+                    <div class="collection-item-outer">
+                        <div class="collection-item">
+                            <img src="./img/cover.jpg" alt="cover" width="">
+                            <div class="collection-text">
                                 <h2>List Item</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, vitae.</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quis dolor ad ipsam voluptates sapiente non nihil corporis, sint, ratione exercitationem numquam soluta adipisci ducimus praesentium iusto nostrum commodi nemo.</p>
                                 <button>Read more...</button>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div id='card'>
-                    <div id='??'>
-                        <div id='???'>
-                            <img src="./img/cover.jpg" alt="cover" width="300">
-                            <div>
-                                <h2>List Item 2</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, vitae.</p>
+
+                    <div class="collection-item-outer">
+                        <div class="collection-item">
+                            <img src="./img/cover.jpg" alt="cover" width="">
+                            <div class="collection-text">
+                                <h2>List Item</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quis dolor ad ipsam voluptates sapiente non nihil corporis, sint, ratione exercitationem numquam soluta adipisci ducimus praesentium iusto nostrum commodi nemo.</p>
                                 <button>Read more...</button>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div id='card'>
-                    <div id='??'>
-                        <div id='???'>
-                            <img src="./img/cover.jpg" alt="cover" width="300">
-                            <div>
-                                <h2>List Item 3</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, vitae.</p>
+
+                    <div class="collection-item-outer">
+                        <div class="collection-item">
+                            <img src="./img/cover.jpg" alt="cover" width="">
+                            <div class="collection-text">
+                                <h2>List Item</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quis dolor ad ipsam voluptates sapiente non nihil corporis, sint, ratione exercitationem numquam soluta adipisci ducimus praesentium iusto nostrum commodi nemo.</p>
                                 <button>Read more...</button>
                             </div>
                         </div>
                     </div>
+
                 </div>
 
-                <h2>Video Collection <small>Visualize Quality</small></h2>
-                <div id='card'>
-                    <div id='??'>
-                        <div id='???'>
-                            <video controls>
-                                <source src='./video/movie.mp4' type='video/mp4'>
-                            </video>
-                            <div>
-                                <h2>List Item</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, vitae.</p>
-                                <button>Read more...</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id='card'>
-                    <div id='??'>
-                        <div id='???'>
-                            <video controls>
-                                <source src='./video/movie.mp4' type='video/mp4'>
-                            </video>
-                            <div>
-                                <h2>List Item 2</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, vitae.</p>
-                                <button>Read more...</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id='card'>
-                    <div id='??'>
-                        <div id='???'>
-                            <video controls>
-                                <source src='./video/movie.mp4' type='video/mp4'>
-                            </video>
-                            <div>
-                                <h2>List Item 3</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, vitae.</p>
-                                <button>Read more...</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
+
+            <div class="container">
+
+                <h2 class="collection-title">Video Collection <small>Visualize Quality</small></h2>
+                <div class="collections">
+                
+                    <div class="collection-item-outer">
+                        <div class="collection-item">
+                                <video controls>
+                                    <source src='./video/movie.mp4' type='video/mp4'>
+                                </video>
+                                <div class="collection-text">
+                                    <h2>List Item 2</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, vitae.</p>
+                                    <button>Read more...</button>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="collection-item-outer">
+                        <div class="collection-item">
+                                <video controls>
+                                    <source src='./video/movie.mp4' type='video/mp4'>
+                                </video>
+                                <div class="collection-text">
+                                    <h2>List Item 2</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, vitae.</p>
+                                    <button>Read more...</button>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="collection-item-outer">
+                        <div class="collection-item">
+                                <video controls>
+                                    <source src='./video/movie.mp4' type='video/mp4'>
+                                </video>
+                                <div class="collection-text">
+                                    <h2>List Item 2</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, vitae.</p>
+                                    <button>Read more...</button>
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
         </main>
         <!-- /MAIN -->
 
         <!-- FOOTER -->
-        <footer>
-            <div>
+        <footer class="footer">
+            <div class="container">
                 <p>Copyright. Example.com 2022</p>
             </div>
         </footer>

@@ -1,37 +1,25 @@
-header, aside, main, footer {
-    text-align: center; 
-    padding-top: 30px; 
-}
-header {
-    background-color: rgb(101, 113, 177); 
-    width: 900px; 
-    height: 150px; 
-    margin: 10px auto;
-    border: dashed  red5px ;
-    list-style-type: 
+.container {
+    position: relative;
+    border: 3px solid #333;
+    background-color: #09f9dd;
+    display: flex;
 }
 
-div {
-    height: 200px;
-    border: 2px solid black;
-    float: left;
-    width: 20%;
-    box-sizing: border-box;
-    border-radius: 10px;
+.container_item {
+    width: 150px;
+    margin: 10px;
+    background-color: #dfdfdf;
+    border: 3px solid #333;
+    text-align: center;
+    color: #333;
 }
-aside {
-    background-color: yellow; 
-    height: 300px; 
-    width: 300px; 
-    float: left;
+
+.item-1 {
+    min-height: 50px;
 }
-main {
-    background-color: darkgrey; 
-    height: 300px; 
+.item-2 {
+    min-height: 100px;
 }
-footer{
-    background-color: violet; 
-    width: 900px; 
-    height: 150px; 
-    margin: 10px auto;
+.item-3 {
+    min-height: 200px;
 }
