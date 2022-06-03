@@ -279,7 +279,7 @@
 
 {/*  ==== CSS  ====
 
-    CSS -  каскадная таблица стилей (cascading style sheets).
+    CSS -  каскадная таблица стилей (cascading style sheets). (https://www3.cs.stonybrook.edu/~pramod.ganapathi/doc/CSE102/CSE102-CheatSheetCSSLong.pdf)
 
 
     Правила написания  H1 - селектор, color - свойство,  green - значение.
@@ -809,6 +809,8 @@
     }
 
     *** СТРАНИЦА ГОТОВА!!!
+
+    *** Полезная инфа по КСС. Почти все свойстваи стили https://www3.cs.stonybrook.edu/~pramod.ganapathi/doc/CSE102/CSE102-CheatSheetCSSLong.pdf
 
 */}
 
