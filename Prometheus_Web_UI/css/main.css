@@ -124,7 +124,7 @@ button:hover {
     text-overflow: ellipsis;
 }
 .collection-text p {
-    max-height: 80px;
+    height: 80px;
     overflow: hidden;
 }
 .collection-text button {
